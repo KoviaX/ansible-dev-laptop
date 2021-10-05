@@ -51,9 +51,6 @@
 # NodeJS
 - import_playbook: nodejs/core.yaml
 
-# PowerShell Core
-- import_playbook: powershell-core/core.yaml
-
 # Python
 - import_playbook: python/core.yaml
 
