@@ -18,35 +18,18 @@
 
 ##### Developer tools
 
-- import_playbook: azure/vscode.yaml
-
 - import_playbook: docker/customization.yaml
-- import_playbook: docker/vscode.yaml
 
 - import_playbook: git/customization.yaml
-- import_playbook: git/vscode.yaml
-
-- import_playbook: golang/vscode.yaml
 
 - import_playbook: kubernetes/customization.yaml
-- import_playbook: kubernetes/vscode.yaml
 
 - import_playbook: no-screen-blank/core.yaml
 
 - import_playbook: nodejs/customization.yaml
-- import_playbook: nodejs/vscode.yaml
-
-- import_playbook: python/vscode.yaml
 
 - import_playbook: ruby/customization.yaml
-- import_playbook: ruby/vscode.yaml
-
-- import_playbook: rust-lang/vscode.yaml
 
 ##### Applications (free)
 
 - import_playbook: alacritty/customization.yaml
-
-##### This has to be last, because it enables WSL Remote, which breaks installing Code extensions in WSL 2
-
-- import_playbook: vscode/customization.yaml
