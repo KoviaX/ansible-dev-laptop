@@ -15,9 +15,6 @@
 
 ##### Developer tools
 
-# Visual Studio Code
-- import_playbook: vscode/core.yaml
-
 # Azure
 - import_playbook: azure/az.yaml
 - import_playbook: azure/azshell.yaml
