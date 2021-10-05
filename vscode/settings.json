@@ -1,0 +1,167 @@
+{
+  // Debugging
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "debug.console.fontSize": 12,
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "debug.toolBarLocation": "docked",
+
+  // Text editor
+  "breadcrumbs.enabled": true,
+  "editor.autoClosingBrackets": "never",
+  "editor.find.autoFindInSelection": "never",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.showFoldingControls": "always",
+  "editor.suggestSelection": "first",
+  "files.autoSave": "onWindowChange",
+  "files.defaultLanguage": "markdown",
+  "files.trimTrailingWhitespace": true,
+
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+
+  // Git
+  "git.inputValidation": "off",
+
+  // TypeScript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Themes/colors/fonts/workbench/etc.
+  "extensions.ignoreRecommendations": true,
+  "material-icon-theme.activeIconPack": "none",
+  "material-icon-theme.folders.color": "#ff7043",
+  "search.useGlobalIgnoreFiles": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeightBold": "500",
+  "terminal.integrated.rendererType": "canvas",
+  "window.restoreFullscreen": true,
+  "window.restoreWindows": "none",
+  "window.titleBarStyle": "native",
+  "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {
+    ///// Dark colors
+    // "terminal.ansiBlack": "#2e3436",
+    // "terminal.ansiBlue": "#3465a4",
+    // "terminal.ansiBrightBlack": "#555753",
+    // "terminal.ansiBrightBlue": "#729fcf",
+    // "terminal.ansiBrightCyan": "#34e2e2",
+    // "terminal.ansiBrightGreen": "#8ae234",
+    // "terminal.ansiBrightMagenta": "#ad7fa8",
+    // "terminal.ansiBrightRed": "#f49797",
+    // "terminal.ansiBrightWhite": "#fbfbfb",
+    // "terminal.ansiBrightYellow": "#fce94f",
+    // "terminal.ansiCyan": "#06989a",
+    // "terminal.ansiGreen": "#4e9a06",
+    // "terminal.ansiMagenta": "#75507b",
+    // "terminal.ansiRed": "#ae5e5e",
+    // "terminal.ansiWhite": "#b5bbae",
+    // "terminal.ansiYellow": "#c4a000",
+    // "terminal.background": "#2e3436",
+    // "terminal.foreground": "#b5bbae",
+
+    ///// Light colors
+    "terminal.ansiBlack": "#eeeeee",
+    "terminal.ansiBlue": "#729fcf",
+    "terminal.ansiBrightBlack": "#b5bbae",
+    "terminal.ansiBrightBlue": "#3265a4",
+    "terminal.ansiBrightCyan": "#06989a",
+    "terminal.ansiBrightGreen": "#4e9a06",
+    "terminal.ansiBrightMagenta": "#75507b",
+    "terminal.ansiBrightRed": "#ae5e5e",
+    "terminal.ansiBrightWhite": "#2e3436",
+    "terminal.ansiBrightYellow": "#9b7f00",
+    "terminal.ansiCyan": "#2ec3c3",
+    "terminal.ansiGreen": "#79c32e",
+    "terminal.ansiMagenta": "#ad7fa8",
+    "terminal.ansiRed": "#f49797",
+    "terminal.ansiWhite": "#696b67",
+    "terminal.ansiYellow": "#c4a000",
+    "terminal.background": "#eeeeee",
+    "terminal.foreground": "#696b67",
+
+    "terminal.selectionBackground": "#3465a440",
+    "[GitHub Plus]": {
+      "editor.background": "#eeeeee",
+      "editor.foreground": "#2e3436",
+      "gitDecoration.ignoredResourceForeground": "#d0d0d0",
+      "panel.background": "#eeeeee3d",
+      "statusBar.background": "#3465a4",
+      "statusBar.border": "#3465a4",
+      "statusBar.foreground": "#eeeeee"
+    }
+  },
+  "workbench.colorTheme": "GitHub Plus",
+  "workbench.editor.closeEmptyGroups": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+
+  // extension: Live Share
+  "liveshare.featureSet": "insiders",
+
+  // extension: Toggle Excluded Files
+  "toggleexcludedfiles.statusBar.enabled": true,
+
+  // extension: VS Intellicode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // extension: C#
+  "csharp.suppressDotnetRestoreNotification": true,
+  "csharp.unitTestDebuggingOptions": {
+    "justMyCode": false
+  },
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+
+  // extension: PowerShell
+  "powershell.integratedConsole.showOnStartup": false,
+
+  // extension: Code Spell Checker
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "javascript",
+    "javascriptreact",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pub",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yml"
+  ],
+  "cSpell.userWords": [
+    "appcenter",
+    "fluentd",
+    "kubernetes",
+    "recurse",
+    "telegraf",
+    "testdouble",
+    "vanaheim",
+    "xunit"
+  ]
+}
