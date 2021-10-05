@@ -83,8 +83,8 @@
         append=yes
       when: not is_mac
 
+    # doesn't currently work on 21.04
     # Linux (Ubuntu)
-# doesn't currently work on 21.04
 #
 #    - name: Add Mesa package source
 #      become: yes
