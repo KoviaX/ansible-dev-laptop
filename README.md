@@ -13,10 +13,6 @@ macOS   | 10.15        | Intel (64-bit) | [Desktop](https://www.apple.com/macos/
 
 Text shell customization assumes you're using bash (macOS in particular now ships with zsh as the default shell). GUI shell customization assumes you're using Gnome on Linux. Alternate distros and/or shells are left as an exercise for the reader.
 
-## Third party notices
-
-Portions copyright (c) Microsoft Corporation, licensed [under the MIT license](https://github.com/microsoft/vscode/blob/afd102cbd2e17305a510701d7fd963ec2528e4ea/LICENSE.txt).
-
 # Pre-Requisites
 
 ## macOS
